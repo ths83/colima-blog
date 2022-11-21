@@ -31,7 +31,7 @@ for i in $(seq 3); do
 
   command time -f "pow 3000 -> {\"real\": %e, \"system\": %S, \"user\": %U}" sh scripts/pow.sh >/dev/null
 
-  echo "--- End of container testing ---"
+  echo "--- End of CPU load testing ---"
 done
 
 rm -rf ./tmp
