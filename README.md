@@ -1,6 +1,6 @@
 # Colima testing scripts
 
-Colima testing scripts for Kumojin's blog.
+Testing scripts for Kumojin's blog.
 
 ## Running tests
 
@@ -22,5 +22,5 @@ docker run -v test_volume:/test/ --workdir /test colima_test test.sh volume
 
 ```shell
 docker build -t colima_test .
-docker run colima_test container
+docker run colima_test test.sh container
 ```
